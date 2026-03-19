@@ -11,10 +11,10 @@ programa_principal.py: importa las funciones del módulo y ejecuta el programa p
  Funciones
  La primera funcion : registrar_habitos()
 Esta función solicita al usuario que ingrese actividades una por una.  
-El ingreso finaliza cuando el usuario escribe `SALIR`.  
+El ingreso finaliza cuando el usuario escribe `salir`.  
 La función devuelve una lista con todas las actividades registradas.
 
-devulevo hciimos un prueba del funcionamiento de esta funcion llamdola n
+
 
 La segunda funcion analizar_habitos(lista) 
 Esta función recibe una lista de actividades y cuenta cuántas veces aparece cada una.  

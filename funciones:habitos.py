@@ -24,25 +24,23 @@ def registrar_habitos():
     actividades = []
 
     while True:
-        actividad = input("Ingrese la actividad realizada, escriba salir cuando quiera terminar: ")
+        actividad = input("Ingrese la actividad realizada, escriba SALIR cuando quiera terminar: ")
 
-        if actividad == "salir":
+        if actividad == "SALIR":
             break
 
         actividades.append(actividad)
 
     return actividades
         
-# probar la funcion 
 
-print(registrar_habitos())
 
 #Funcion 2 
 def analizar_habitos(actividades): 
     '''
     
 
-   Recibe uan lista con todas las actividades realziadas por el usario y cuenta cuanta veces se realiza cada actividad
+   Recibe uan lista con todas las actividades realizadas por el usario y cuenta cuanta veces se realiza cada actividad
     ----------
     actividades : list
         lista con todas las actividades realizadas 
@@ -62,9 +60,7 @@ def analizar_habitos(actividades):
 
     return diccionario
 
-#probar la funcion
-acciones=['comer','comer','saltar','cantar','correr','dormir','correr']
-print(analizar_habitos(acciones))
+
 
 
 
