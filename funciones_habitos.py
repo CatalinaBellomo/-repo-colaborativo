@@ -10,7 +10,7 @@ Created on Thu Mar 12 15:19:40 2026
 #Funcion 1 
 def registrar_habitos():
     '''
-    Permite al usuario ingresar actividades realizadas hasta escribir 'salir' para terminar el programa
+    Permite al usuario ingresar actividades realizadas hasta escribir 'SALIR' para terminar el programa
     
    
     Returns
@@ -26,7 +26,7 @@ def registrar_habitos():
     while True:
         actividad = input("Ingrese la actividad realizada, escriba SALIR cuando quiera terminar: ")
 
-        if actividad == "SALIR":
+        if actividad.upper() == "SALIR":
             break
 
         actividades.append(actividad)
@@ -40,10 +40,10 @@ def analizar_habitos(actividades):
     '''
     
 
-   Recibe uan lista con todas las actividades realizadas por el usario y cuenta cuanta veces se realiza cada actividad
+   Recibe una lista con todas las actividades realizadas por el usuario y cuenta cuántas veces aparece cada actividad.
     ----------
     actividades : list
-        lista con todas las actividades realizadas 
+        Lista con todas las actividades realizadas 
 
     Returns
     -------
