@@ -5,3 +5,4 @@ resultado = funciones_habitos.analizar_habitos(lista)
 
 print("Resumen de actividades:")
 print(resultado)
+

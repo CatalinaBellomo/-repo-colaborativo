@@ -24,7 +24,7 @@ def registrar_habitos():
     actividades = []
 
     while True:
-        actividad = input("Ingrese la actividad realizada, escriba SALIR cuando quiera terminar: ")
+        actividad = input("Ingrese la actividad realizada, escriba SALIR cuando quiera terminar: ").strip()
 
         if actividad.upper() == "SALIR":
             break
